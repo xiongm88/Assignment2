@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'play';
+    src: url(./Fonts/Plaguard-ZVnjx.otf);
+}
+
+.body1{
+    background: url(./Photos/Background.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head1{
+    font-family: play;
+    font-size: 8vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    font-family: play;
+    font-size: 3vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landingicon{
+    font-size: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Home Page */
+
+.body2{
+    background-image: url(./Photos/emirates.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    width: 100%;
+    margin: none;
+    text-align: center;
+    background-color: rgba(8, 114, 8, 0.75);
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.head2{
+    font-family: play;
+    font-size: 9vh;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.tablink{
+    width: 25vh;
+    background-color: rgba(4, 136, 4, 0);
+    height: 10vh;
+    color: white;
+    font-size: 4vh;
+    font-weight: 200;
+    border: none;
+    outline: none;
+    margin: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablink:hover{
+    background-color: white;
+    color: rgba(4, 136, 4);
+}
+
+#user{
+    font-size: 8vh;
+    color: white;
+    float: right;
+    margin: 10px;
+}
+
+.beautiful{
+    color: rgba(4, 136, 4);
+    text-align: center;
+}
+
+.fling-minislide {
+width:100%; 
+height:600px; 
+overflow:hidden; 
+position: relative;
+}
+.fling-minislide img{
+position:absolute; 
+animation:fling-minislide 20s infinite; 
+opacity:0; 
+width: 100%; 
+height: auto;
+}
+
+@keyframes fling-minislide {
+25%{opacity:1;} 
+40%{opacity:0;}
+}
+.fling-minislide img:nth-child(1){
+    animation-delay:0s;
+}
+.fling-minislide img:nth-child(2){
+    animation-delay:5s;
+}
+.fling-minislide img:nth-child(3){
+    animation-delay:10s;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+
+.boots{
+    text-align: center;
+    font-size: 4vh;
+}
+
+.firm{
+    margin-bottom: 0%;
+    color: white;
+}
+
+#results{
+    font-size: 3vh;
+    margin: none;
+    padding: none;
+    border: none;
+    color: white;
+}
+
+.merc{
+    height: 75vh;
+    margin: none;
+    padding: none;
+    border: none;
+    align-content: center;
+}
+
+.x15{
+    height: 75vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+.ace15{
+    height: 75vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+.xspeed{
+    height: 75vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+.acespeed{
+    height: 75vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+.messi{
+    height: 75vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#merc{
+    background-color: rgba(255,255,255, .75);
+    width: 50vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#x15{
+    background-color: rgba(255,255,255, .75);
+    width: 50vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#ace15{
+    background-color: rgba(255,255,255, .75);
+    width: 50vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#xspeed{
+    background-color: rgba(255,255,255, .75);
+    width: 50vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#acespeed{
+    background-color: rgba(255,255,255, .75);
+    width: 50vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#messi{
+    background-color: rgba(255,255,255, .75);
+    width: 50vh;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#1{
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+.footer{
+    width: 100%;
+    height: 25vh;
+    margin: none;
+    background-color: rgba(8, 114, 8, 0.75);
+    background-position: bottom;
+    background-size: 100%;
+    text-align: center;
+}
+
+.about{
+    margin: 0, 10px;
+    border: none;
+    padding: none;
+    text-align: center;
+    color: white;
+}
